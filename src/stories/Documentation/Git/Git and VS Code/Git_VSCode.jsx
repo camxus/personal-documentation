@@ -42,6 +42,14 @@ export const Page = () => {
           GitLens is a very extensive tool, that comes both in a free and pro version.
           The Plugin allows another plethora of unique functionalities, which are neither native to Git nor VS Code (eg. traversing single file commit histories, displaying the User and Date of a Line Change)
         </p>
+        <p>
+          <img src={require("./assets/gitLens_file history_buttons.png")} alt=''/>
+          By making use of the three file history icons in that GitLens adds to the top right corner of Visual Studio Code, you can navigate single file changes.
+          <br />
+          This makes the revising of files easy as you will not necesitate looking for the commit change anymore.
+          <br />
+          <img src={require("./assets/compare_files.png")} alt=''/>
+        </p>
       </section>
     </article>
   );
