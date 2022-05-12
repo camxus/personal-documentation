@@ -4,7 +4,7 @@ import React from 'react';
 import { Page } from './VSCode';
 
 export default {
-  title: 'Documentation/',
+  title: 'Documentation/Visual Studio Code',
   component: Page,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout

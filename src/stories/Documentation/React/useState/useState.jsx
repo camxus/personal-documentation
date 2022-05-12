@@ -15,31 +15,33 @@ export const Page = () => {
         </p>
         <p>
           By using <code>const [state, setState] = useState([initialStateValue])</code> you can initialize the state value.
-          <br />
+        <p />
+        <p>
           As the use of hooks is limited to the body of the react function, declaring a hook is not possible inside another function.
           <br />
           In fact the usage of a hook can become very confusing if done in a manner that this hook doesnt support.
           <br />
           One good instance of this is by declaring a setState with a modiied state value.
+        </p>
           <br />
-          <code>
-          const [state, setState] = useState([initialStateValue])
-
-          var counter = 0
-
-          useEffect(() =&gt; {setState(counter + 1)}, [counter])
-          </code>
+          <code>{`const [state, setState] = useState([initialStateValue])`}</code>
           <br />
+          <code>{`var counter = 0`}</code>
+          <br />
+          <code>{`useEffect(() => {setState(counter + 1)}, [counter])`}</code>
+          <br />
+          <p>
           Since setState actually returns the old state, calling <code>setState(state)</code> can be problematic as useState might use the old value.
           This can lead to bugs around useState
+          </p>
           <br />
-          <code>
-          const [state, setState] = useState([initialStateValue])
-
-          var counter = 0
-
-          useEffect(() =&gt; {setState(oldStatevalue => counter + 1)}, [counter])
-          </code>
+          <br />
+          <code>{`const [state, setState] = useState([initialStateValue])`}</code>
+          <br />
+          <code>{`var counter = 0`}</code>
+          <br />
+          <code>{`useEffect(() => {setState(counter => counter + 1)}, [counter])`}</code>
+          <br />
           <br />
           A better coding convention to adhere to is to make sure to set the State with a function and to pass the previous state value into said function.
         </p>

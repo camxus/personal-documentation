@@ -4,7 +4,7 @@ import React from 'react';
 import { Page } from './Redux_Toolkit';
 
 export default {
-  title: 'Documentation/',
+  title: 'Documentation/Redux Toolkit',
   component: Page,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
