@@ -4,7 +4,7 @@ import React from 'react';
 import { Page } from './VSCode';
 
 export default {
-  title: 'Documentation/VS Code',
+  title: 'Documentation/',
   component: Page,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
@@ -12,7 +12,7 @@ export default {
   },
 };
 
-export const VSCode = (args) => <Page {...args} />;
+export const VisualStudioCode = (args) => <Page {...args} />;
 
 // // More on interaction testing: https://storybook.js.org/docs/react/writing-tests/interaction-testing
 // export const LoggedOut = APICalls.bind({});

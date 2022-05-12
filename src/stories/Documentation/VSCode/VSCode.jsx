@@ -43,13 +43,13 @@ export const Page = () => {
           <h3>Document Traversing</h3>
           <ul>
             <li>
-              <p>
-                <kbd>Cmd</kbd> + <code>Click</code> - Find/Go To/Show Definition/Implementation
-              </p>
+              <kbd>Cmd</kbd> + <code>Click</code> - Find/Go To/Show Definition/Implementation
               <p>
                 Note: <kbd>Cmd</kbd> + <code>Click</code> is very powerful as it also allows for the navigation of links both in the editor and in the terminal
               </p>
             </li>
+            <li><kbd>Alt</kbd> + <code>Z</code> - Wrap Lines</li>
+            <li><kbd>Cmd</kbd> + <code>/</code> - Comment/Uncomment Lines</li>
           </ul>
         </p>
       </section>
