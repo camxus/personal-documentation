@@ -30,13 +30,29 @@ export const Page = () => {
         </p>
         <h3>display: flex</h3>
         <p>
-            Previously using display grid and <code>{`position: absolute; top: [value]; left: [value]; right: [value]: bottom: [value]: transform: translate([anti-value], [anti-value])`}</code> was the preferred method of positioning elements from left to right.
+            Previously using display grid and 
+            <hr />
+            <code>{`position: absolute; top: [value]; left: [value]; right: [value]: bottom: [value]: transform: translate([anti-value], [anti-value])`}</code> 
+            <hr />
+            was the preferred method of positioning elements from left to right.
         </p>
         <p>
-            But there has been a shift from this to <code>{`display: flex; justify-content: center|space-between|evenly; align-items: center`}</code> as this allows for a more concise and uniform way of placing elements.
+            But there has been a shift from this to 
+            <hr />
+            <code>{`display: flex; justify-content: center|space-between|evenly; align-items: center`}</code>
+            <hr />
+             as this allows for a more concise and uniform way of placing elements.
         </p>
         <p>
-            Further benefit of this comes when using tools like Bootstrap or TailwindCSS as they only need a clessname of <code>{`d-flex justify-content-center align-items-center`}</code> to completely center an element and grow the div by its body content. Using margins and paddings 
+            Further benefit of this comes when using tools like Bootstrap or TailwindCSS as they only need a clessname of 
+            <hr />
+            <code>{`d-flex justify-content-center align-items-center`}</code> 
+            <hr />
+            to completely center an element and grow the div by its body content.
+            <br />
+            <p>
+                Making use of this and <a href="/?path=/story/documentation-visual-studio-code--emmet-abbreviations">Emmet Abbreviations</a> greatly increases workflow
+            </p>
         </p>
       </section>
     </article>
