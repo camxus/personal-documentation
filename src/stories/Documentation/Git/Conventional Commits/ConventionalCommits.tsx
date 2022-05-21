@@ -27,34 +27,34 @@ function ConventionalCommits() {
       <p>Additional types are not mandated by the Conventional Commits specification, and have no implicit effect in Semantic Versioning (unless they include a BREAKING CHANGE). A scope may be provided to a commit&rsquo;s type, to provide additional contextual information and is contained within parenthesis, e.g., <code>feat(parser): add ability to parse arrays</code>.</p>
       <h3>Examples</h3>
       <h3>Commit message with description and breaking change footer</h3>
-      <><code>feat: allow provided config object to extend other configs
+      <p><code>feat: allow provided config object to extend other configs
       BREAKING CHANGE: `extends` key in config file is now used for extending other config files
-      </code></>
+      </code></p>
       <h3>Commit message with <code>!</code> to draw attention to breaking change</h3>
-      <><code>feat!: send an email to the customer when a product is shipped
-      </code></>
+      <p><code>feat!: send an email to the customer when a product is shipped
+      </code></p>
       <h3>Commit message with scope and <code>!</code> to draw attention to breaking change</h3>
-      <><code>feat(api)!: send an email to the customer when a product is shipped
-      </code></>
+      <p><code>feat(api)!: send an email to the customer when a product is shipped
+      </code></p>
       <h3>Commit message with both <code>!</code> and BREAKING CHANGE footer</h3>
-      <><code>chore!: drop support for Node 6
+      <p><code>chore!: drop support for Node 6
       BREAKING CHANGE: use JavaScript features not available in Node 6.
-      </code></>
+      </code></p>
       <h3>Commit message with no body</h3>
-      <><code>docs: correct spelling of CHANGELOG
-      </code></>
+      <p><code>docs: correct spelling of CHANGELOG
+      </code></p>
       <h3>Commit message with scope</h3>
-      <><code>feat(lang): add Polish language
-      </code></>
+      <p><code>feat(lang): add Polish language
+      </code></p>
       <h3>Commit message with multi-paragraph body and multiple footers</h3>
-      <><code>fix: prevent racing of requests
+      <p><code>fix: prevent racing of requests
       Introduce a request id and a reference to latest request. Dismiss
       incoming responses other than from latest request.
       Remove timeouts which were used to mitigate the racing issue but are
       obsolete now.
       Reviewed-by: Z
       Refs: #123
-      </code></>
+      </code></p>
       <h3>Specification</h3>
       <p>The key words &ldquo;MUST&rdquo;, &ldquo;MUST NOT&rdquo;, &ldquo;REQUIRED&rdquo;, &ldquo;SHALL&rdquo;, &ldquo;SHALL NOT&rdquo;, &ldquo;SHOULD&rdquo;, &ldquo;SHOULD NOT&rdquo;, &ldquo;RECOMMENDED&rdquo;, &ldquo;MAY&rdquo;, and &ldquo;OPTIONAL&rdquo; in this document are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119</a>.</p>
       <ol>
